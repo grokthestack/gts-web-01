@@ -1,5 +1,5 @@
 language: node_js
 node_js:
   - "0.8"
-script: "if ls *.sh >/dev/null 2>&1 ; then echo 'Shell script found' ; else echo 'No shell scripts found' ; fi"
+script: ./test.sh
 install: true
